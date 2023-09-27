@@ -1,0 +1,315 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: white;
+    background-color: #030303;
+    max-width: 1900px;
+    display: block;
+    margin: auto;
+}
+.empty {
+    width: 40vw;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    min-width: 40vw;
+}
+.navlink {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition-duration: 0.4s;
+}
+.navlinkgroup {
+    display: flex;
+    margin-left: 15px;
+    
+}
+.hero {
+    background-image: url(/asset/svgBG-top-desktop.svg);
+    height: 80vh;
+    display: block;
+    margin: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mainblock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20vh;
+    
+
+}
+.herotext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.basedIn {
+    display: flex;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    align-items: center;
+}
+
+h6{
+    margin: 5px;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+h1 {
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: .5rem;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+h2{
+    font-weight: 300;
+    font-size: 1.7rem;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    letter-spacing: 4.491px;
+    text-transform: uppercase; 
+    text-align: center;
+}
+
+.worktitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+    margin-top: 180px;
+}
+button {
+    width: 198px;
+    height: 54px;
+    border-radius: 6px;
+    border: 0.5px solid rgba(128, 255, 0, 0.35);
+    background: #0000004d;
+    box-shadow: 0px 4px 20px 1px rgba(128, 255, 0, 0.17);
+    color:#80FF00;
+    font-family: Plus Jakarta Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.3px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    transition-duration: 0.8s;
+    
+}
+.btnicon {
+    padding-left: 10px;
+    padding-top: 7px;
+}
+.card {
+    border-radius: 9px;
+    border: 3px solid rgba(127, 127, 127, 0.27);
+    background: #1A1A1A;
+    filter: drop-shadow(0px 9px 38px rgba(255, 255, 255, 0.089));
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex;
+    align-content: center;
+    margin-top: 30px;
+    transition-duration: 0.8s;
+    padding-bottom: 24px;
+    
+}
+.card:hover {
+    filter: drop-shadow(0px 9px 38px #80ff0066);
+    border: 3px solid #80ff00bf;
+    
+}
+.workimg1 {
+    width: 100%;
+}
+.imgwrapper {
+    display: block;
+    align-items: center;
+    margin: 50px 50px 50px 50px;
+    max-width: 50%;
+    min-width: 10%;
+
+    
+}
+.contentwrapper {
+    margin-top: 40px;
+    margin-left: 40 px;
+    margin-right: 40px;
+    padding-left: 40px;
+    max-width: 50%;
+}
+h5{
+    color: var(--lime-green, #80FF00);
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 2.66px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    
+}
+h4 {
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.52px;
+    text-transform: capitalize;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+p {
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 138%; /* 22.08px */
+    letter-spacing: 1.28px;
+}
+.contact {
+    background-image: url(/asset/svgBG-btm-desktop.svg);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    background-size: cover;
+
+}
+h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 135.5%; /* 65.04px */
+    letter-spacing: 8.64px;
+    text-transform: uppercase;
+    margin-top: 180px;
+}
+footer {
+    color: #FFF;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 135.5%; /* 21.68px */
+    letter-spacing: 2.88px;
+    text-transform: uppercase;
+    background-color: #202020;
+}
+.herodescwrap {
+    display: grid;
+    place-content: center;
+    max-width: 50vw;
+    text-align: center;
+}
+.herodesc {
+    font-weight: 200;
+    font-size: 0.9rem;
+}
+.navlink:hover {
+    border: 1px solid #80ff0037;
+    background-color: #80ff0015;
+    border-radius: 25px;
+}
+.navicon:hover {
+    fill :#80FF00;
+}
+button:hover {
+    border-radius: 6px;
+    border: 0.5px solid rgba(128, 255, 0, 0.35);
+    background: linear-gradient(90deg, #80FF00 3.54%, #00C8F4 100%);
+    box-shadow: 0px 4px 21px 3px rgba(3, 201, 237, 0.43);
+    color: white;
+    font-weight: 700;
+    width: 205px;
+    height: 60px;
+}
+
+@media screen and (max-width: 600px) {
+    .hero {
+        padding-left: 5px;
+        padding-right: 5px;
+        }
+    h1 {
+        font-size: 3rem;
+    }
+    .empty {
+        width: 40vw;
+    }
+    .navlink {
+        padding-left: 1vw;
+        padding-right: 1vw;
+        font-size: .8rem;
+    }
+    .herodescwrap{
+        max-width: 85vw;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .herodesc {
+        font-size: 0.7rem;
+    }
+    .card {
+        margin-right: 5vw;
+        margin-left: 5vw;
+        flex-direction: column;
+    }
+    .imgwrapper {
+        display: block;
+        margin: auto;
+        padding-top: 30px;
+        max-width: max-content;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .contentwrapper {
+        margin: auto;
+        padding: auto;
+        max-width: 90%;
+        padding-left: 0px;
+    }
+    h3 {
+        margin-top: 90px;
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    .contact {
+        width: 100%;
+    }
+    }
+    
