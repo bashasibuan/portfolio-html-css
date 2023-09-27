@@ -35,7 +35,7 @@ nav {
     
 }
 .hero {
-    background-image: url(/asset/svgBG-top-desktop.svg);
+    background-image: url(./asset/svgBG-top-desktop.svg);
     height: 80vh;
     display: block;
     margin: auto;
@@ -197,7 +197,7 @@ p {
     letter-spacing: 1.28px;
 }
 .contact {
-    background-image: url(/asset/svgBG-btm-desktop.svg);
+    background-image: url(./asset/svgBG-btm-desktop.svg);
     width: 100%;
     height: 100%;
     display: flex;
